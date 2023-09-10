@@ -13,11 +13,9 @@ exports.getAllMenuItems = async (req, res) => {
 exports.addMenuItem = async (req, res) => {
   try {
     const { name, price } = req.body;
-    let image = null;
-
-    // Handle image upload (if provided)
+    let image = null;
     if (req.file) {
-      image = req.file.buffer; // Store image data as a buffer
+      image = req.file.buffer;
     }
 
     const menuItem = await MenuItem.create({ name, price, image });
