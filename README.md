@@ -5,34 +5,6 @@
 
 The Canteen App is a web-based application designed to streamline the management of a canteen or cafeteria. It provides a user-friendly interface for vendors to manage their menu items, view orders, and update their password securely.
 
-project-root/
-  |- src/
-  |   |- routes/
-  |   |   |- authRoutes.js
-  |   |   |- dashboardRoutes.js
-  |   |   |- menuRoutes.js
-  |   |   |- orderRoutes.js
-  |   |   |- websocketRoutes.js
-  |   |- controllers/
-  |   |   |- authController.js
-  |   |   |- dashboardController.js
-  |   |   |- menuController.js
-  |   |   |- orderController.js
-  |   |- models/
-  |   |   |- User.js
-  |   |   |- MenuItem.js
-  |   |   |- Order.js
-  |   |- middleware/
-  |   |   |- authentication.js
-  |   |- utils/
-  |   |   |- database.js
-  |   |   |- passport-config.js
-  |   |- server.js
-  |- package.json
-  |- .env
-
-
-
 ## Installation and Setup
 
 ### Prerequisites
