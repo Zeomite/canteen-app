@@ -23,6 +23,7 @@ project-root/
   |   |   |- dashboardController.js
   |   |   |- menuController.js
   |   |   |- orderController.js
+  |   |   |- websocketController.js
   |   |- models/
   |   |   |- User.js
   |   |   |- MenuItem.js
